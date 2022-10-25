@@ -7,6 +7,4 @@ Tried using different ML algorithms like logistic regression, SVM, Random forest
 ### Credit Card Default
 Objective: To build a ML model that can predict whether a given customer defaults or not.
 
-Did exploratory data analysis (EDA) & Handled class imbalance using oversampling with ADASYN.  
-Used GridSearchCV for hyperparameter tuning & Standard scaler for feature scaling. 
-Build model using random forest classifier with an accuracy of 83% & found important features.
+Did exploratory data analysis (EDA) & Handled class imbalance using oversampling with ADASYN. Used GridSearchCV for hyperparameter tuning & Standard scaler for feature scaling. Build model using random forest classifier with an accuracy of 83% & found important features
