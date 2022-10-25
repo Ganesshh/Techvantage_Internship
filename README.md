@@ -18,4 +18,4 @@ Tried predicting the genders of the e-commerce consumers using different classif
 **Objective**: Determine a set of grocery 5-10 items. Identify the number of remaining items for each category of the grocery item present in the shelf. If the number of identified items is less than a particular threshold, a notification is sent to a procurement system to ask for more supplies of the particular item. 
 
 Found datasets containing annotated images of single product on shelves. Used roboflow for creating dataset. Dataset contains 1200+ images of 5 different classes.
-Used YoloV5 algorithm for the training the model & evaluated the model using mAP values. Got an overall mean average precision(mAP) score as 86%. Also created an email alert (notification)system to ask for more supplies of the particular item using smtplib.
+Used YoloV5 algorithm for the training the model & evaluated the model using mAP values. Got an overall mean average precision(mAP) score as 86%. Also created an email alert notification system to ask for more supplies of the particular item using smtplib.
