@@ -12,4 +12,5 @@ Did exploratory data analysis (EDA) & Handled class imbalance using oversampling
 ### Ecommerce Gender Prediction
 **Objective**: To build a ML model that will predict the gender of the e-commerce consumers.
 
-Tried predicting the genders of the e-commerce consumers using different classification algorithms. After pre-processing and building the models, compared their performance in terms of accuracy. SVM Radial basis function found to having accuracy of 93%.
+Tried predicting the genders of the e-commerce consumers using different classification algorithms. After pre-processing and building the models, compared their performance in terms of accuracy. Found that the dataset is not linearly separable, that’s why it doesn’t work well with Logistic Regression and SVC with linear kernel. It works well with SVC’s Radial basis function kernel with an accuracy of 93%.
+
